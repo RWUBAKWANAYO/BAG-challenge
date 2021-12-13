@@ -1,0 +1,80 @@
+
+.send-spinner {
+  position: relative;
+  /* z-index: 10; */
+  width: 54px;
+  height: 54px;
+  display: inline-block;
+  background: transparent;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.send-spinner div {
+  width: 6%;
+  height: 16%;
+  background: rgb(0, 199, 0);
+  position: absolute;
+  left: 49%;
+  top: 43%;
+  opacity: 0;
+  border-radius: 50px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  animation: fade 1s linear infinite;
+}
+
+@keyframes fade {
+  from {opacity: 1;}
+  to {opacity: 0.25;}
+}
+
+.send-spinner .send-bar1 {
+  transform:rotate(0deg) translate(0, -130%);
+  animation-delay: 0s;
+}
+
+.send-spinner .send-bar2 {
+  transform:rotate(30deg) translate(0, -130%);
+  animation-delay: -0.9167s;
+}
+
+.send-spinner .send-bar3 {
+  transform:rotate(60deg) translate(0, -130%);
+  animation-delay: -0.833s;
+}
+.send-spinner .send-bar4 {
+  transform:rotate(90deg) translate(0, -130%);
+  animation-delay: -0.7497s;
+}
+.send-spinner .send-bar5 {
+  transform:rotate(120deg) translate(0, -130%);
+  animation-delay: -0.667s;
+}
+.send-spinner .send-bar6 {
+  transform:rotate(150deg) translate(0, -130%);
+  animation-delay: -0.5837s;
+}
+.send-spinner .send-bar7 {
+  transform:rotate(180deg) translate(0, -130%);
+  animation-delay: -0.5s;
+}
+.send-spinner .send-bar8 {
+  transform:rotate(210deg) translate(0, -130%);
+  animation-delay: -0.4167s;
+}
+.send-spinner .send-bar9 {
+  transform:rotate(240deg) translate(0, -130%);
+  animation-delay: -0.333s;
+}
+.send-spinner .send-bar10 {
+  transform:rotate(270deg) translate(0, -130%);
+  animation-delay: -0.2497s;
+}
+.send-spinner .send-bar11 {
+  transform:rotate(300deg) translate(0, -130%);
+  animation-delay: -0.167s;
+}
+.send-spinner .send-bar12 {
+  transform:rotate(330deg) translate(0, -130%);
+  animation-delay: -0.0833s;
+}
