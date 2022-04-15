@@ -67,3 +67,13 @@ Since you run above command you ready to test the application on localhost:3000 
 
 <img src="https://res.cloudinary.com/nayo/image/upload/v1639099511/Screenshot_938_ckaoko.png" alt="setup">
 
+## Authors
+:bust_in_silhouette: **Author**
+- GitHub: [@githubrwubakwanayo](https://github.com/RWUBAKWANAYO)
+- LinkedIn: [Rwubakwanayo](https://www.linkedin.com/in/rwubakwanayo-olivier)
+## :handshake: Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
+## Show your support
+Give a :star:️ if you like this project!
